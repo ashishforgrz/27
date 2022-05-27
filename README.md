@@ -76,4 +76,3 @@ Objects in Node.js can fire events, like the readStream object fires events when
 var events = require('events');
 var eventEmitter = new events.EventEmitter();
 
-Node.js Upload Files -
