@@ -72,3 +72,8 @@ var url = require('url');
 
 Node.js Events -
 Objects in Node.js can fire events, like the readStream object fires events when opening and closing a file
+
+var events = require('events');
+var eventEmitter = new events.EventEmitter();
+
+Node.js Upload Files -
