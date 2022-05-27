@@ -62,3 +62,13 @@ To delete a file with the File System module,  use the fs.unlink() method
 
 5. Rename Files
 To rename a file with the File System module,  use the fs.rename() method
+
+Node.js URL Module - 
+The URL module splits up a web address into readable parts
+
+To include the URL module, use the require() method:
+
+var url = require('url');
+
+Node.js Events -
+Objects in Node.js can fire events, like the readStream object fires events when opening and closing a file
