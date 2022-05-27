@@ -15,16 +15,23 @@ var http = require('http');
 Create Your Own Modules - 
 exports keyword to make properties and methods available outside the module file
 eg:
+
 exports.myDateTime = function () {
+
   return Date();
 };
 
 Include your created module -
 var http = require('http');
+
 var dt = require('./myfirstmodule');
 
 http.createServer(function (req, res) {
+
   res.writeHead(200, {'Content-Type': 'text/html'});
+  
   res.write("The date and time are currently: " + dt.myDateTime());
+  
   res.end();
+  
 }).listen(8080);
